@@ -1,0 +1,51 @@
+.container_input {
+	display: flex;
+	flex-direction: column;
+}
+.container_input span {
+	color: #666666;
+
+	font-family: Trebuchet MS;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 32px;
+}
+.span_input {
+	color: #666666;
+	font-family: Trebuchet MS;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 32px;
+}
+.container_input input {
+	background: #ffffff;
+	border: 1px solid #eeeeee;
+	box-sizing: border-box;
+	border-radius: 4px 4px 0px 0px;
+	padding: 10px 10px;
+	width: 100%;
+}
+.btn_submit {
+	background: #000000;
+	border: 1px solid #705ed8;
+	box-sizing: border-box;
+	border-radius: 4px;
+	cursor: pointer;
+	color: #ffffff;
+	padding: 5px 15px;
+	margin-top: 10px;
+}
+.container {
+	margin: 0 auto;
+	border: 1px solid #e0e2e5;
+	border-radius: 10px;
+	padding: 10px;
+	max-width: 450px;
+}
+.data_card {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}

